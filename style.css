@@ -80,7 +80,6 @@ body{
 
 .container .box-bottom li:hover{
 	cursor: pointer;
-	background-color: #00ffff;
 }
 
 .container .box-bottom li img{
@@ -130,12 +129,47 @@ body{
 	}
 
 	.container .box-bottom ul .li{
-		width: 100px;
-		height: 100px;
+		width: 90px;
+		height: 90px;
 	}
 
 	.container .box-bottom ul .li img{
 		display: block;
 		width: 100%;
+	}
+}
+
+@media (min-width: 600px) and (max-width: 1100px){
+	body{
+		display: grid;
+		place-items: center;
+	}
+
+	.container{
+		width: 100%;
+	}
+
+	.container .box-top{
+		height: 48%;
+	}
+
+	.container .box-bottom{
+		height: 48%;
+	}
+
+	.container .info{
+		top: 36.5vh;
+		height: 8%;
+		font-size: 1.5rem;
+	}
+
+	.container .box-bottom ul .li{
+		width: 180px;
+		height: 180px;
+	}
+
+	.container .box-top .comp-s{
+		width: 180px;
+		height: 180px;
 	}
 }
